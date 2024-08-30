@@ -42,7 +42,7 @@ novo_projeto
 ```
 > Note que ele mudou o nome do projeto para novo_projeto (com underline)
 
-### Criando o projeto no GIT
+## Criando o projeto no GIT
 
 Partindo da premissa que você já está dentro do diretório criado para o projeto.
 
@@ -84,7 +84,7 @@ git commit -m 'Primeiro commit, estrutura do projeto'
 git git push
 ```
 
-### Ferramentas para desenvolvimento
+## Ferramentas para desenvolvimento
 
 ```bash
 poetry add --group dev pytest
@@ -94,7 +94,7 @@ poetry add --group dev isort
 poetry add --group dev taskipy
 ```
 
-### Ferramentas para documentação
+## Ferramentas para documentação
 
 ```bash
 poetry add --group doc mkdocs-material
@@ -108,7 +108,7 @@ poetry add --group doc mkdocstrings-python
 poetry shell
 ```
 
-### Criar documentação
+## Criar documentação
 
 ```bash
 mkdocs new .
