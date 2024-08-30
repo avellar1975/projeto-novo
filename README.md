@@ -124,16 +124,14 @@ Para configurar o Mkdocs ver arquivo docs/mkdocs.yml
 
 ## Configuração do Pytest
 
-Dentro do arquivo `pyproject.toml` criar o item `[tool.pytest.ini_options]`
-
-Ver arquivo no repositório
+Dentro do arquivo `pyproject.toml` ver configuração da sessão `[tool.pytest.ini_options]`
 
 ## Configuração do Isort e Blue
 
-Ver arquivo do repositório `[tool.isort]`
+Dentro do arquivo `pyproject.toml` ver configuração da sessão `[tool.isort]`
 
 ## Configuração do taskipy
 
-Ver arquivo do repositório sessão `[tool.taskipy.tasks]`
+Dentro do arquivo `pyproject.toml` ver configuração da sessão  `[tool.taskipy.tasks]`
 
-Executar comando `task lint`
+Executar comando `task l` para verificar todas as tarefas criadas
