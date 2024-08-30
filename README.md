@@ -135,3 +135,5 @@ Dentro do arquivo `pyproject.toml` ver configuração da sessão `[tool.isort]`
 Dentro do arquivo `pyproject.toml` ver configuração da sessão  `[tool.taskipy.tasks]`
 
 Executar comando `task l` para verificar todas as tarefas criadas
+
+Para executar uma tarefa basta digitar `task <nome da tarefa>`
