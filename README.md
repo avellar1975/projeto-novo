@@ -108,4 +108,32 @@ poetry add --group doc mkdocstrings-python
 poetry shell
 ```
 
+### Criar documentação
 
+```bash
+mkdocs new .
+```
+
+Rodar o servidor
+
+```bash
+mkdocs serve
+```
+
+Para configurar o Mkdocs ver arquivo docs/mkdocs.yml
+
+## Configuração do Pytest
+
+Dentro do arquivo `pyproject.toml` criar o item `[tool.pytest.ini_options]`
+
+Ver arquivo no repositório
+
+## Configuração do Isort e Blue
+
+Ver arquivo do repositório `[tool.isort]`
+
+## Configuração do taskipy
+
+Ver arquivo do repositório sessão `[tool.taskipy.tasks]`
+
+Executar comando `task lint`
