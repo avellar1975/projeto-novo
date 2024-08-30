@@ -101,3 +101,11 @@ poetry add --group doc mkdocs-material
 poetry add --group doc mkdocstrings
 poetry add --group doc mkdocstrings-python
 ```
+
+## Ativar ambiente virtual com Poetry
+
+```bash
+poetry shell
+```
+
+
