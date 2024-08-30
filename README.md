@@ -77,3 +77,27 @@ gh repo create
 - Visibility `Public`
 - Add a remote `Yes`
 - What should the new remote be called? `origin`
+
+```bash
+git add .
+git commit -m 'Primeiro commit, estrutura do projeto'
+git git push
+```
+
+### Ferramentas para desenvolvimento
+
+```bash
+poetry add --group dev pytest
+poetry add --group dev pytest-cov
+poetry add --group dev blue
+poetry add --group dev isort
+poetry add --group dev taskipy
+```
+
+### Ferramentas para documentação
+
+```bash
+poetry add --group doc mkdocs-material
+poetry add --group doc mkdocstrings
+poetry add --group doc mkdocstrings-python
+```
