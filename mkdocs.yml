@@ -7,3 +7,9 @@ theme:
   name: material
   language: pt-BR
 
+plugins:
+- mkdocstrings:
+    handlers:
+      python:
+        paths: [projeto_novo]
+
